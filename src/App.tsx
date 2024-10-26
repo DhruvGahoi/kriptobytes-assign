@@ -1,11 +1,8 @@
-import './App.css'
+import React from 'react';
+import DashboardLayout from './components/layout/DashboardLayout';
 
-function App() {
+const App: React.FC = () => {
+  return <DashboardLayout />;
+};
 
-  return (
-    <>
-    </>
-  )
-}
-
-export default App
+export default App;
