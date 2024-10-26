@@ -6,7 +6,7 @@ export interface User {
     photo: string;
     status: 'online' | 'offline' | 'busy';
 }
-
+  
 export interface Project {
     id: string;
     title: string;
@@ -16,6 +16,8 @@ export interface Project {
     tasks: number;
     activeTasks: number;
     assignees: string[];
+    description?: string;
+    progress?: number;
 }
   
 export interface MenuItem {
